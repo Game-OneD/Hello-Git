@@ -1,2 +1,8 @@
+*.csproj
+*.unityproj
+*.booproj
+*.sln
+*.suo
+
 /Framework_Learn/Library
 /Framework_Learn/Temp
