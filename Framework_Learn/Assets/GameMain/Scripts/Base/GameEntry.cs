@@ -1,9 +1,14 @@
 ﻿using UnityEngine;
 
-public partial class GameEntry : MonoBehaviour 
+namespace Framework_Learn
 {
-    private void Start()
+    public partial class GameEntry : MonoBehaviour
     {
-        InitBuiltinComponents();
+        private void Start()
+        {
+            InitBuiltinComponents();
+        }
     }
 }
+
+

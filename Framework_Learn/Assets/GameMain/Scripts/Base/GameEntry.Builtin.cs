@@ -1,32 +1,22 @@
-﻿using System.Diagnostics;
-public partial class GameEntry
+﻿using GameFramework;
+using UnityGameFramework.Runtime;
+
+namespace Framework_Learn
 {
-    public static int Base
+    public partial class GameEntry
     {
-        get;
-        private set;
-    }
+        public static int Base
+        {
+            get;
+            private set;
+        }
 
-    private string DebugContent = string.Empty;
-
-    private void InitBuiltinComponents()
-    {
-        Base = 233;
-        UnityEngine.Debug.LogFormat("Base = {0}", Base);
-        DebugLogTest("Debug Only");
-    }
-
-    private void OnGUI()
-    {
-        UnityEngine.GUILayout.Label("Begin:");
-        UnityEngine.GUILayout.Label(m_DebugContent);
-    }
-
-    private string m_DebugContent = string.Empty;
-
-    [Conditional("DEBUG")]
-    public void DebugLogTest(string content)
-    {
-        m_DebugContent = content;
+        private void InitBuiltinComponents()
+        {
+            Log.Debug("This is debug log.");
+            LogHelper login = new LogHelper();
+            login.Log(LogLevel.Info, "ssss");
+        }
     }
 }
+

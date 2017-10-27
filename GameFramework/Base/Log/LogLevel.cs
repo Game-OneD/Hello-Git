@@ -1,5 +1,4 @@
-﻿
-namespace GameFramework
+﻿namespace GameFramework
 {
     /// <summary>
     /// 日志等级
