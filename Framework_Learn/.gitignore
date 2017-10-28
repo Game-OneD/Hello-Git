@@ -4,6 +4,8 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+!/Assets/GameFramework/Libraries/*.gitkeep
+/Assets/GameFramework/Libraries/
 
 # Visual Studio 2015 cache directory
 /.vs/

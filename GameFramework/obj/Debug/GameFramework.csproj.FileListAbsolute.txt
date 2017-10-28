@@ -1,7 +1,0 @@
-F:\GitHub\Hello-Git\GameFramework\bin\Debug\GameFramework.dll
-F:\GitHub\Hello-Git\GameFramework\bin\Debug\GameFramework.pdb
-F:\GitHub\Hello-Git\Framework_Learn\Assets\GameFramework\Libraries\GameFramework.dll
-F:\GitHub\Hello-Git\Framework_Learn\Assets\GameFramework\Libraries\GameFramework.pdb
-F:\GitHub\Hello-Git\GameFramework\obj\Debug\GameFramework.csprojResolveAssemblyReference.cache
-F:\GitHub\Hello-Git\GameFramework\obj\Debug\GameFramework.dll
-F:\GitHub\Hello-Git\GameFramework\obj\Debug\GameFramework.pdb
